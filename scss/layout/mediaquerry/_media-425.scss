@@ -1,0 +1,103 @@
+@media (max-width: 425px) {
+    .pepito {
+        height: 10vh;
+        font-size: 1rem;
+
+        img {
+            padding-top: 1px;
+            padding-left: 6vh;
+            height: 5vh;
+        }
+    }
+    .inicio2 {
+       
+        font-size: 0.5rem;
+
+        .img {
+            width: 5vh;
+            height: 5vh;
+
+            padding-top: 1px;
+            padding-left: 6vh;
+            
+        }
+    }
+
+
+
+.navbar a {
+
+    width: 425px;
+    height: 50px;
+    padding-left: 1vh;
+    padding-top: 0.5rem;
+    font-size: 2vh;
+    color: white;
+
+}
+.cuerpo{
+    @include cuerpo ( 425,80%, 3,3);
+    grid-column: 1/3;
+    grid-row: 1/4;
+    font-size: 2vh;
+    
+}
+.contacto p{
+    font-size: 10px;
+    width: 70vh;
+}
+
+.contactote {
+    font-size: 10px;
+}
+
+.tipo {
+    width: 425px;
+    height: 60vh;
+    font-size: 0.5rem;
+}
+
+.imagente .tipo {
+    font-size: 1rem;
+}
+
+.contactote p {
+    font-size: 2vh;
+
+}
+
+.ic {
+    width: 100%;
+    height: auto;
+}
+
+.article {
+    @include cuerpo(100%, 30%, 3, 3);
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: whitesmoke;
+
+    a {
+        color: whitesmoke;
+        font-size: 0.5rem;
+        flex-direction: column;
+        text-decoration: none;
+        grid-column: 3/4;
+        grid-row: 1/2
+
+    }
+}
+
+.acercab {
+    @include cuerpo (80%, 40%, 3, 3);
+    grid-column: 1/4;
+    grid-row: 1/4;
+    color: black;
+
+    .img .ic {
+        @include cuerpo (425px, 200px, 3, 3);
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+}
+}

@@ -1,0 +1,29 @@
+@media (max-width: 320px) {
+    .pepito {
+        font-size: 2vh;
+        height: 20vh;
+
+            .img {
+                width: 10px;
+                height: 10px;
+            }
+
+
+            .navbar{
+                
+                height: 5vh;
+                font-size: 0.5vh;
+                width: 320px;
+                height: 5vh;
+                text-align: right;
+                a{
+                    font-size: 0.5vh;  
+                }
+            }
+        }
+    }
+
+    .imagente {
+        @include cuerpo (100%, 80%, 3, 3);
+        @include letra (white,2vh);
+    }

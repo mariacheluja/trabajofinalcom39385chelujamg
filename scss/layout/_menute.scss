@@ -1,0 +1,12 @@
+.menute {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    text-align: center;
+    height: 6vh;
+    width: 100%;
+    background-color: $color_navbar;
+}

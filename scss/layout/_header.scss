@@ -1,0 +1,65 @@
+.inicio2 {
+  @include flex(row, wrap, rigth, rigth);
+  @include letra($color_inicio, 0.5em);
+  gap: 5px;
+  width :100%;
+}
+
+
+.logo {
+  img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+
+
+.pepito {
+  @include flex(row, wrap, left, center);
+  @include letra($color_inicio, 2vh);
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  gap: 250px;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  background-color: $color_navbar;
+
+  .navbar {
+    @include flex (row, wrap, center, center);
+    gap: 2vh;
+    padding-left: 2vh;
+    text-align: center;
+    line-height: 100%;
+    font-size: 3rem;
+    list-style: none;
+
+    a {
+      list-style: none;
+      text-decoration: none;
+      // font-size: 4vh;
+    }
+  }
+}
+
+
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+  /* text-align: center; */
+  font-size: 1em;
+  height: 60px;
+  width: 1920px;
+  background-color: rgba(205, 240, 234, 1);
+
+}

@@ -1,0 +1,113 @@
+.sectionFooter {
+    
+    @include flex (row, wrap, center, center);
+    height: 100vh;
+    gap: 50px;
+    background-color: $color_pres;
+
+    .p {
+        text-decoration: none;
+    }
+
+    .instagram:hover {
+        transform: rotate(10deg);
+    }
+
+    .facebook:hover {
+        transform: rotate(10deg);
+    }
+
+    .whatsapp:hover {
+        transform: rotate(10deg);
+    }
+}
+
+.pie {
+    @include flex (row, wrap, center, center);
+    height: 10px;
+    gap: 50px;
+    background-color: $color_pres;
+
+    .p {
+        text-decoration: none;
+    }
+
+    .instagram:hover {
+        transform: rotate(10deg);
+    }
+
+    .facebook:hover {
+        transform: rotate(10deg);
+    }
+
+    .whatsapp:hover {
+        transform: rotate(10deg);
+    }
+}
+
+.menute {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 100px;
+    width: 100%;
+    background: linear-gradient(to right top, #e38337, #e49b1e, #dbb500, #c8d000, #a8eb12);
+    @include flex (row, wrap, rigth, rigth);
+    height: 100px;
+    a {
+        text-decoration: none;
+    }
+
+    .instagram:hover {
+        flex-direction: row;
+        transform: rotate(10deg);
+    }
+
+    .facebook:hover {
+        flex-direction: row;
+        transform: rotate(10deg);
+    }
+
+    .whatsapp:hover {
+        flex-direction: row;
+        transform: rotate(10deg);
+    }
+}
+
+.contactote {
+    background-color: $color_footer;
+    width: 100%;
+    height: 30px;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 100px;
+
+        p {
+            text-align: center;
+            background-color: $color_footer;
+            // flex-direction: wrap;
+            padding-bottom: 50px;
+            font-size: 5vh;
+        }
+}
+
+.contacto {
+    background-color: $color_footer;
+    width: 1440px;
+    height: 30px;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 100px;
+
+        p {
+            text-align: center;
+            background-color: $color_footer;
+            // flex-direction: wrap;
+            padding-bottom: 50px;
+            font-size: 5vh;
+            width: 1440px;
+        }
+}

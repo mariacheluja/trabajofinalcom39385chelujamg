@@ -1,0 +1,13 @@
+.menu {
+    @include flex (row, wrap, center, center);
+    background-color: $color_navbar;
+    gap: 30px;
+
+    a {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    height: 30vh;
+    width: 1440px;
+}
